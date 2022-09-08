@@ -1,5 +1,3 @@
-# HelaPass
-
 ## Integrating Website Payment
 
 Receiving money on your website is now easy with simple integration at a fee of 1.3% per transaction. This document will introduce you to all the basic information you need to better understand our technologies. To start receiving payment on your website, you need to do is copy the HTML form code below to your website page
