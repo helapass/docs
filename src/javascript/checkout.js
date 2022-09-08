@@ -24,7 +24,7 @@ var data = `{
   "title":"RPI",
   "description":"Payment For RPI",
   "quantity":"10",
-  "currency":"87"
+  "currency":"174"
 }`;
 
 xhr.send(data);
