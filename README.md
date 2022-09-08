@@ -27,7 +27,7 @@ Receiving money on your website is now easy with simple integration at a fee of 
 
 ### API Checkout
 
-- #### Request
+#### Request
 ```
 curl -X POST https://sandbox.helapass.com/api/mer_transfer 
 	-H "Content-Type: application/json" 
@@ -39,7 +39,7 @@ curl -X POST https://sandbox.helapass.com/api/mer_transfer
 			"return_url":"https//www.mydomain.com/return.html",
 			"tx_ref":"REF_usergenerated",
 			"amount":"10000",
-			"email":"softwaretz2@camara.org",
+			"email":"mail@example.com",
 			"first_name":"Finn",
 			"last_name":"Marshal",
 			"title":"RPI",
@@ -50,15 +50,13 @@ curl -X POST https://sandbox.helapass.com/api/mer_transfer
 	DATA
 ```
 
-- #### Response
+#### Response
 ```
 {
     "status":"success",
     "url":"https://sandbox.helapass.com/xpay/kiK4Ssr3ExleuQJo/MER-hVBile"
 }
 ```
-
-
 
 ### Verifying payment
 
