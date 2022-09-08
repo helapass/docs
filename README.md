@@ -98,9 +98,9 @@ curl -X GET http://helapass.test/api/verify-payment/{txref}/{secretkey}
 ### Currency Supported
 
 | S/N | ID  | CODE | SYMBOL | COUNTRY            | CURRENT RATE    |
-| --- | --- | ---- | ------ | ------------------ | --------------- |
-| 1.  | 87  | NGN  | â‚¦    | Nigeria            | 460 => 1USD     |
-| 2.  | 174 | TZS  | TSh    | Tanzanian shilling | 2436.56 => 1USD |
+| --- | ------ | ------- | --------- | ------------------------ | ------------------- |
+| 1.  | 87     | NGN     | ₦         | Nigeria                  | 460 => 1USD         |
+| 2.  | 174    | TZS     | TSh       | Tanzanian shilling       | 2436.56 => 1USD     |
 
 ### Requirements
 
